@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HappyDo.Job", "HappyDo.Job\HappyDo.Job.csproj", "{177D3821-68D0-4CBC-9A13-1B66A65ACFDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HappyDo.Core", "HappyDo.Core\HappyDo.Core.csproj", "{D87F09F1-6C61-4A5F-85B1-E5A4D87457AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{177D3821-68D0-4CBC-9A13-1B66A65ACFDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{177D3821-68D0-4CBC-9A13-1B66A65ACFDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{177D3821-68D0-4CBC-9A13-1B66A65ACFDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{177D3821-68D0-4CBC-9A13-1B66A65ACFDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D87F09F1-6C61-4A5F-85B1-E5A4D87457AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D87F09F1-6C61-4A5F-85B1-E5A4D87457AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D87F09F1-6C61-4A5F-85B1-E5A4D87457AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D87F09F1-6C61-4A5F-85B1-E5A4D87457AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

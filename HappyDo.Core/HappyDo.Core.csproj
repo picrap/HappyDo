@@ -44,6 +44,10 @@
       <HintPath>..\packages\MrAdvice.Fody.0.9.9.2\lib\portable-net40+sl5+wp8\MrAdvice.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net40\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="OneFilesystem, Version=0.3.4.2, Culture=neutral, PublicKeyToken=12b83d4a41b22682, processorArchitecture=MSIL">
       <HintPath>..\packages\OneFilesystem.0.3.4.2-pre\lib\net40\OneFilesystem.dll</HintPath>
       <Private>True</Private>
@@ -59,7 +63,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Rules\Credential.cs" />
+    <Compile Include="Rules\Do.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rules\Rule.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
